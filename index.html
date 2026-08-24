@@ -1,1 +1,802 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://steady-sable-177e9f.netlify.app/ -->
+<html lang="en"><head> <script id='_webengage_script_tag' type='text/javascript'>
+    var webengage;
+    ! function(w, e, b, n, g) {
+        function o(e, t) {
+            e[t[t.length - 1]] = function() {
+                r.__queue.push([t.join("."), arguments])
+            }
+        }
+        var i, s, r = w[b],
+            z = " ",
+            l = "init options track screen onReady".split(z),
+            a = "feedback survey notification".split(z),
+            c = "options render clear abort".split(z),
+            p = "Open Close Submit Complete View Click".split(z),
+            u = "identify login logout setAttribute".split(z);
+        if (!r || !r.__v) {
+            for (w[b] = r = {
+                    __queue: [],
+                    is_spa: 1, //Change this to 0 if you do not wish to use default SPA behaviour of WebEngage SDK
+                    __v: "6.0",
+                    user: {}
+                }, i = 0; i < l.length; i++) o(r, [l[i]]);
+            for (i = 0; i < a.length; i++) {
+                for (r[a[i]] = {}, s = 0; s < c.length; s++) o(r[a[i]], [a[i], c[s]]);
+                for (s = 0; s < p.length; s++) o(r[a[i]], [a[i], "on" + p[s]])
+            }
+            for (i = 0; i < u.length; i++) o(r.user, ["user", u[i]]);
+            setTimeout(function() {
+                var f = e.createElement("script"),
+                    d = e.getElementById("_webengage_script_tag");
+                f.type = "text/javascript", f.async = !0, f.src = ("https:" == e.location.protocol ? "https://ssl.widgets.webengage.com" : "https://cdn.widgets.webengage.com") + "/js/webengage-min-v-6.0.js", d.parentNode.insertBefore(f, d)
+            })
+        }
+    }(window, document, "webengage");
+    webengage.init('YOUR_WEBENGAGE_LICENSE_CODE'); //replace the YOUR_WEBENGAGE_LICENSE_CODE with your WebEngage Account License Code
+</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WashWale — Car Wash at Your Doorstep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./WashWale — Car Wash at Your Doorstep_files/css2" rel="stylesheet">
+<script type="text/javascript" async="" src="./WashWale — Car Wash at Your Doorstep_files/webengage-min-v-6.0.js"></script><script id="_webengage_script_tag" type="text/javascript">
+    var webengage;
+    !function(w, e, b, n, g) {
+        function o(e, t) {
+            e[t[t.length - 1]] = function() {
+                r.__queue.push([t.join("."), arguments])
+            }
+        }
+        var i, s, r = w[b],
+            z = " ",
+            l = "init options track screen onReady".split(z),
+            a = "feedback survey notification".split(z),
+            c = "options render clear abort".split(z),
+            p = "Open Close Submit Complete View Click".split(z),
+            u = "identify login logout setAttribute".split(z);
+        if (!r || !r.__v) {
+            for (w[b] = r = {
+                    __queue: [],
+                    is_spa: 1, //Change this to 0 if you do not wish to use default SPA behaviour of WebEngage SDK
+                    __v: "6.0",
+                    user: {}
+                }, i = 0; i < l.length; i++) o(r, [l[i]]);
+            for (i = 0; i < a.length; i++) {
+                for (r[a[i]] = {}, s = 0; s < c.length; s++) o(r[a[i]], [a[i], c[s]]);
+                for (s = 0; s < p.length; s++) o(r[a[i]], [a[i], "on" + p[s]])
+            }
+            for (i = 0; i < u.length; i++) o(r.user, ["user", u[i]]);
+            setTimeout(function() {
+                var f = e.createElement("script"),
+                    d = e.getElementById("_webengage_script_tag");
+                f.type = "text/javascript", f.async = !0, f.src = ("https:" == e.location.protocol ? "https://ssl.widgets.webengage.com" : "https://cdn.widgets.webengage.com") + "/js/webengage-min-v-6.0.js", d.parentNode.insertBefore(f, d)
+            })
+        }
+    }(window, document, "webengage");
+    webengage.init('aa1330d7'); //WebEngage Account License Code
+</script>
+<style>
+  :root{
+    --ink:#0E2430;
+    --ink-soft:#173241;
+    --foam:#F6FAF9;
+    --mist:#E7EFED;
+    --mango:#FF8A3D;
+    --mango-deep:#E96F1F;
+    --slate:#4C6874;
+    --slate-light:#7C939C;
+    --leaf:#2F9E6E;
+    --line: rgba(14,36,48,0.12);
+    --line-soft: rgba(246,250,249,0.16);
+    --radius: 14px;
+    --wrap: 1180px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Inter', sans-serif;
+    color:var(--ink);
+    background:var(--foam);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.display{ font-family:'Space Grotesk', sans-serif; letter-spacing:-0.01em; }
+  .mono{ font-family:'IBM Plex Mono', monospace; }
+  a{ color:inherit; text-decoration:none; }
+  ul{ list-style:none; }
+  img{ max-width:100%; display:block; }
+  .wrap{ max-width:var(--wrap); margin:0 auto; padding:0 28px; }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px; font-weight:600; letter-spacing:0.14em; text-transform:uppercase;
+    color:var(--mango-deep); display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:""; width:16px; height:2px; background:var(--mango); display:inline-block; }
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; scroll-behavior:auto !important; }
+  }
+  :focus-visible{ outline:2.5px solid var(--mango-deep); outline-offset:3px; border-radius:4px; }
+
+  /* ---------- NAV ---------- */
+  header{
+    position:sticky; top:0; z-index:100;
+    background:rgba(246,250,249,0.88);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  nav{ display:flex; align-items:center; justify-content:space-between; padding:16px 28px; max-width:var(--wrap); margin:0 auto; }
+  .logo{ display:flex; align-items:center; gap:9px; font-family:'Space Grotesk'; font-weight:700; font-size:20px; }
+  .logo .drop{ width:20px; height:24px; }
+  .nav-links{ display:flex; gap:34px; font-size:14.5px; font-weight:500; color:var(--ink-soft); }
+  .nav-links a{ position:relative; padding:4px 0; }
+  .nav-links a::after{ content:""; position:absolute; left:0; bottom:-2px; width:0; height:2px; background:var(--mango); transition:width .25s ease; }
+  .nav-links a:hover::after{ width:100%; }
+  .nav-cta{ display:flex; align-items:center; gap:14px; }
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:12px 22px; border-radius:100px; font-weight:600; font-size:14.5px;
+    cursor:pointer; border:none; transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    white-space:nowrap;
+  }
+  .btn-primary{ background:var(--mango); color:var(--ink); box-shadow:0 6px 18px rgba(255,138,61,0.35); }
+  .btn-primary:hover{ background:var(--mango-deep); transform:translateY(-2px); box-shadow:0 10px 22px rgba(255,138,61,0.42); }
+  .btn-ghost{ background:transparent; color:var(--ink); border:1.5px solid var(--line); }
+  .btn-ghost:hover{ border-color:var(--ink); }
+  .btn-light{ background:var(--foam); color:var(--ink); }
+  .btn-light:hover{ transform:translateY(-2px); }
+  .call-link{ display:flex; align-items:center; gap:7px; font-size:14px; font-weight:600; color:var(--ink-soft); }
+  .menu-toggle{ display:none; background:none; border:none; cursor:pointer; }
+
+  /* ---------- HERO ---------- */
+  .hero{ position:relative; padding:78px 0 40px; overflow:hidden; }
+  .hero-grid{ display:grid; grid-template-columns:1.05fr 0.95fr; gap:40px; align-items:center; }
+  .hero h1{ font-size:clamp(38px,5vw,60px); line-height:1.04; font-weight:700; margin:18px 0 20px; }
+  .hero h1 .accent{ color:var(--mango-deep); }
+  .hero p.lede{ font-size:18px; line-height:1.6; color:var(--slate); max-width:480px; margin-bottom:30px; }
+  .hero-actions{ display:flex; gap:14px; flex-wrap:wrap; margin-bottom:34px; }
+  .trust-row{ display:flex; gap:26px; flex-wrap:wrap; }
+  .trust-item{ display:flex; align-items:center; gap:9px; font-size:13.5px; color:var(--slate); font-weight:500; }
+  .stars{ color:var(--mango-deep); letter-spacing:1px; }
+
+  .hero-art{ position:relative; height:460px; display:flex; align-items:center; justify-content:center; }
+  .hero-art .puddle{
+    position:absolute; bottom:14px; width:290px; height:36px; background:radial-gradient(ellipse at center, rgba(14,36,48,0.16), transparent 72%);
+    border-radius:50%;
+  }
+  .hero-art svg{ position:relative; z-index:2; width:100%; max-width:420px; }
+  .drop-anim{ position:absolute; opacity:0; animation:fall 2.6s ease-in infinite; }
+  .drop-anim.d1{ left:30%; top:-10px; animation-delay:.1s; }
+  .drop-anim.d2{ left:52%; top:-10px; animation-delay:.9s; }
+  .drop-anim.d3{ left:68%; top:-10px; animation-delay:1.7s; }
+  @keyframes fall{
+    0%{ opacity:0; transform:translateY(0) scale(1); }
+    8%{ opacity:1; }
+    72%{ opacity:1; transform:translateY(280px) scale(1); }
+    76%{ opacity:1; transform:translateY(290px) scale(1.4,0.5); }
+    100%{ opacity:0; transform:translateY(290px) scale(1.4,0.5); }
+  }
+
+  /* wipe divider */
+  .wipe{ height:64px; background:var(--ink); clip-path: polygon(0 100%, 0 40%, 6% 20%, 14% 55%, 24% 10%, 34% 60%, 46% 5%, 58% 55%, 70% 15%, 82% 58%, 92% 25%, 100% 45%, 100% 100%); margin-top:20px;}
+
+  /* ---------- STATS ---------- */
+  .stats{ background:var(--ink); color:var(--foam); padding:0 0 56px; }
+  .stats-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; }
+  .stat-num{ font-family:'IBM Plex Mono'; font-size:clamp(26px,3vw,36px); font-weight:600; color:var(--mango); }
+  .stat-label{ font-size:13px; color:#AFC3CA; margin-top:6px; }
+
+  /* ---------- SECTION SHARED ---------- */
+  section{ padding:96px 0; }
+  .section-head{ max-width:620px; margin-bottom:52px; }
+  .section-head h2{ font-size:clamp(28px,3.4vw,40px); margin-top:14px; line-height:1.12; }
+  .section-head p{ color:var(--slate); font-size:16px; margin-top:14px; line-height:1.6; }
+
+  /* ---------- SERVICES ---------- */
+  .services-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+  .service-card{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:28px 24px; transition:transform .22s ease, box-shadow .22s ease; }
+  .service-card:hover{ transform:translateY(-5px); box-shadow:0 16px 32px rgba(14,36,48,0.09); }
+  .service-icon{ width:46px; height:46px; border-radius:12px; background:var(--mist); display:flex; align-items:center; justify-content:center; margin-bottom:18px; }
+  .service-card h3{ font-size:18px; margin-bottom:8px; }
+  .service-card p{ font-size:14px; color:var(--slate); line-height:1.55; }
+  .tag-eco{ display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:600; color:var(--leaf); background:rgba(47,158,110,0.1); padding:4px 10px; border-radius:100px; margin-top:12px; }
+
+  /* ---------- HOW IT WORKS ---------- */
+  .how{ background:var(--mist); }
+  .steps{ display:grid; grid-template-columns:repeat(3,1fr); gap:30px; counter-reset:step; }
+  .step{ position:relative; padding-top:6px; }
+  .step-num{ font-family:'IBM Plex Mono'; font-size:14px; font-weight:600; color:var(--mango-deep); }
+  .step h3{ font-size:20px; margin:12px 0 10px; }
+  .step p{ color:var(--slate); font-size:14.5px; line-height:1.6; }
+  .step-line{ position:absolute; top:0; left:0; width:100%; height:2px; background:var(--line); }
+  .step-line::before{ content:""; position:absolute; left:0; top:0; height:100%; width:var(--fill,0%); background:var(--mango); }
+
+  /* ---------- SIGNATURE: WIPE SLIDER ---------- */
+  .signature{ background:var(--ink); color:var(--foam); }
+  .signature .section-head p{ color:#AFC3CA; }
+  .signature .eyebrow{ color:var(--mango); }
+  .compare{ position:relative; max-width:720px; margin:0 auto; border-radius:20px; overflow:hidden; box-shadow:0 30px 60px rgba(0,0,0,0.4); aspect-ratio:16/10; background:#0A1B24; }
+  .compare-layer{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
+  .compare-after{ background:linear-gradient(160deg,#123441,#0E2430); }
+  .compare-before{ background:linear-gradient(160deg,#2b2620,#1c1814); }
+  .compare-before svg .body-fill{ fill:#5b5346; }
+  .compare-before .grime{ opacity:1; }
+  .compare-after .grime{ opacity:0; }
+  .compare-after svg .shine{ opacity:1; }
+  .compare-before svg .shine{ opacity:0; }
+  .compare-clip{ position:absolute; inset:0; overflow:hidden; }
+  .compare-handle{
+    position:absolute; top:0; bottom:0; width:3px; background:var(--mango);
+    left:50%; transform:translateX(-50%); cursor:ew-resize;
+  }
+  .compare-handle::after{
+    content:"⇔"; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:44px; height:44px; background:var(--mango); color:var(--ink); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:700;
+    box-shadow:0 8px 18px rgba(0,0,0,0.35);
+  }
+  .compare-label{ position:absolute; top:16px; font-family:'IBM Plex Mono'; font-size:11.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; padding:6px 12px; border-radius:100px; background:rgba(14,36,48,0.55); backdrop-filter:blur(4px); }
+  .compare-label.left{ left:16px; }
+  .compare-label.right{ right:16px; }
+  .compare-hint{ text-align:center; font-size:13px; color:#AFC3CA; margin-top:18px; font-family:'IBM Plex Mono'; }
+
+  /* ---------- PRICING ---------- */
+  .pricing-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; align-items:stretch; }
+  .price-card{ background:#fff; border:1px solid var(--line); border-radius:18px; padding:32px 26px; display:flex; flex-direction:column; }
+  .price-card.popular{ border:2px solid var(--mango); position:relative; transform:translateY(-10px); box-shadow:0 20px 40px rgba(255,138,61,0.18); }
+  .popular-badge{ position:absolute; top:-13px; left:26px; background:var(--mango); color:var(--ink); font-family:'IBM Plex Mono'; font-size:11px; font-weight:600; padding:5px 12px; border-radius:100px; letter-spacing:.05em; }
+  .price-card h3{ font-size:19px; }
+  .price-card .desc{ color:var(--slate); font-size:13.5px; margin:8px 0 20px; }
+  .price-amount{ font-family:'IBM Plex Mono'; font-size:36px; font-weight:600; }
+  .price-amount span{ font-size:14px; color:var(--slate); font-weight:500; }
+  .price-list{ margin:22px 0 26px; flex-grow:1; }
+  .price-list li{ display:flex; gap:10px; align-items:flex-start; font-size:14px; color:var(--ink-soft); padding:7px 0; }
+  .price-list li::before{ content:"✓"; color:var(--leaf); font-weight:700; flex-shrink:0; }
+
+  /* ---------- CITIES ---------- */
+  .cities{ background:var(--mist); }
+  .city-grid{ display:flex; flex-wrap:wrap; gap:12px; }
+  .city-chip{ background:#fff; border:1px solid var(--line); padding:10px 20px; border-radius:100px; font-size:14.5px; font-weight:500; display:flex; align-items:center; gap:8px; }
+  .city-chip .dot{ width:7px; height:7px; border-radius:50%; background:var(--leaf); }
+  .city-chip.soon .dot{ background:var(--slate-light); }
+  .city-chip.soon{ color:var(--slate); }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .testi-card{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:26px; }
+  .testi-stars{ color:var(--mango-deep); font-size:14px; margin-bottom:14px; }
+  .testi-card p{ font-size:14.5px; line-height:1.65; color:var(--ink-soft); margin-bottom:20px; }
+  .testi-person{ display:flex; align-items:center; gap:12px; }
+  .testi-avatar{ width:38px; height:38px; border-radius:50%; background:var(--mist); display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk'; font-weight:700; font-size:14px; color:var(--mango-deep); }
+  .testi-name{ font-size:14px; font-weight:600; }
+  .testi-meta{ font-size:12.5px; color:var(--slate); }
+
+  /* ---------- FAQ ---------- */
+  .faq-list{ max-width:760px; }
+  .faq-item{ border-bottom:1px solid var(--line); }
+  .faq-q{ width:100%; text-align:left; background:none; border:none; padding:22px 0; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-family:'Space Grotesk'; font-size:16.5px; font-weight:600; color:var(--ink); }
+  .faq-q .plus{ font-size:20px; color:var(--mango-deep); transition:transform .25s ease; flex-shrink:0; margin-left:20px; }
+  .faq-item.open .plus{ transform:rotate(45deg); }
+  .faq-a{ max-height:0; overflow:hidden; transition:max-height .3s ease; }
+  .faq-a p{ padding-bottom:22px; color:var(--slate); font-size:14.5px; line-height:1.65; max-width:640px; }
+
+  /* ---------- FINAL CTA / BOOKING ---------- */
+  .booking{ background:var(--ink); color:var(--foam); border-radius:26px; margin:0 28px; padding:60px; display:grid; grid-template-columns:1fr 1fr; gap:50px; }
+  .booking-copy .eyebrow{ color:var(--mango); }
+  .booking-copy h2{ font-size:clamp(26px,3vw,34px); margin:16px 0 14px; }
+  .booking-copy p{ color:#AFC3CA; font-size:15px; line-height:1.65; max-width:400px; }
+  .booking-perks{ margin-top:28px; }
+  .booking-perks li{ display:flex; gap:10px; font-size:14px; color:#D7E3E6; padding:6px 0; }
+  .booking-perks li::before{ content:"→"; color:var(--mango); font-weight:700; }
+  .form-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .form-grid .full{ grid-column:1/-1; }
+  .field label{ font-size:12.5px; font-weight:600; color:#AFC3CA; display:block; margin-bottom:7px; letter-spacing:.03em; }
+  .field input, .field select{
+    width:100%; background:var(--ink-soft); border:1px solid var(--line-soft); color:var(--foam);
+    padding:13px 14px; border-radius:9px; font-family:'Inter'; font-size:14.5px;
+  }
+  .field input::placeholder{ color:#5F7B85; }
+  .field input:focus, .field select:focus{ outline:none; border-color:var(--mango); }
+  .form-note{ font-size:12px; color:#7C93A0; margin-top:14px; }
+  .form-success{ display:none; background:rgba(47,158,110,0.15); border:1px solid var(--leaf); color:#8FE0B8; padding:14px 16px; border-radius:9px; font-size:14px; margin-top:16px; }
+  .form-success.show{ display:block; }
+
+  /* ---------- FOOTER ---------- */
+  footer{ padding:60px 0 40px; }
+  .footer-grid{ display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px; margin-bottom:50px; }
+  .footer-logo{ font-family:'Space Grotesk'; font-weight:700; font-size:19px; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .footer-grid p{ font-size:13.5px; color:var(--slate); line-height:1.6; max-width:260px; }
+  .footer-col h4{ font-size:13px; margin-bottom:16px; color:var(--slate-light); text-transform:uppercase; letter-spacing:.06em; font-weight:600; }
+  .footer-col li{ padding:5px 0; }
+  .footer-col a{ font-size:14px; color:var(--ink-soft); }
+  .footer-col a:hover{ color:var(--mango-deep); }
+  .footer-bottom{ display:flex; justify-content:space-between; align-items:center; padding-top:26px; border-top:1px solid var(--line); font-size:12.5px; color:var(--slate); flex-wrap:wrap; gap:12px; }
+
+  /* ---------- WHATSAPP FLOAT ---------- */
+  .wa-float{
+    position:fixed; bottom:24px; right:24px; z-index:200;
+    width:58px; height:58px; border-radius:50%; background:#25D366;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 10px 26px rgba(37,211,102,0.45);
+    transition:transform .2s ease;
+  }
+  .wa-float:hover{ transform:scale(1.08); }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 980px){
+    .nav-links{ display:none; }
+    .hero-grid{ grid-template-columns:1fr; }
+    .hero-art{ height:320px; order:-1; }
+    .stats-grid{ grid-template-columns:repeat(2,1fr); row-gap:28px; }
+    .services-grid{ grid-template-columns:repeat(2,1fr); }
+    .steps{ grid-template-columns:1fr; gap:36px; }
+    .pricing-grid{ grid-template-columns:1fr; }
+    .price-card.popular{ transform:none; }
+    .testi-grid{ grid-template-columns:1fr; }
+    .footer-grid{ grid-template-columns:1fr 1fr; }
+    .booking{ grid-template-columns:1fr; margin:0 16px; padding:40px 26px; }
+    .form-grid{ grid-template-columns:1fr; }
+  }
+  @media (max-width: 560px){
+    .footer-grid{ grid-template-columns:1fr; }
+    section{ padding:64px 0; }
+    .wrap{ padding:0 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="https://steady-sable-177e9f.netlify.app/#top" class="logo">
+      <svg class="drop" viewBox="0 0 20 24" fill="none"><path d="M10 0C10 0 1 11.5 1 16.5C1 21.75 5.5 24 10 24C14.5 24 19 21.75 19 16.5C19 11.5 10 0 10 0Z" fill="#FF8A3D"></path></svg>
+      WashWale
+    </a>
+    <ul class="nav-links">
+      <li><a href="https://steady-sable-177e9f.netlify.app/#services">Services</a></li>
+      <li><a href="https://steady-sable-177e9f.netlify.app/#how">How it works</a></li>
+      <li><a href="https://steady-sable-177e9f.netlify.app/#pricing">Pricing</a></li>
+      <li><a href="https://steady-sable-177e9f.netlify.app/#cities">Cities</a></li>
+      <li><a href="https://steady-sable-177e9f.netlify.app/#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="call-link" href="tel:+911234567890">📞 <span>+91 12345 67890</span></a>
+      <a class="btn btn-primary" href="https://steady-sable-177e9f.netlify.app/#book">Book a wash</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero" style="padding-top:78px;">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Doorstep car care</p>
+        <h1>Your car,<br>washed <span class="accent">where it's parked.</span></h1>
+        <p class="lede">Book a slot, and a trained WashWale crew shows up with their own water, foam and vacuum — while you finish your chai. No queues, no drive to a garage.</p>
+        <div class="hero-actions">
+          <a href="https://steady-sable-177e9f.netlify.app/#book" class="btn btn-primary">Book a wash — from ₹149</a>
+          <a href="https://wa.me/911234567890" class="btn btn-ghost">💬 Chat on WhatsApp</a>
+        </div>
+        <div class="trust-row">
+          <div class="trust-item"><span class="stars">★★★★★</span> 4.9 from 12,400+ washes</div>
+          <div class="trust-item">🚰 Waterless option available</div>
+          <div class="trust-item">⏱ Avg. arrival: 34 min</div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="puddle"></div>
+        <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="200" cy="195" rx="150" ry="10" fill="#0E2430" opacity="0.08"></ellipse>
+          <path d="M40 150 C 40 120, 60 105, 95 100 L 120 72 C 128 62, 142 56, 158 56 L 250 56 C 266 56, 280 62, 288 72 L 312 100 C 348 105, 368 120, 368 150 L 368 160 C 368 168, 362 174, 354 174 L 320 174 C 320 190, 306 202, 290 202 C 274 202, 260 190, 260 174 L 150 174 C 150 190, 136 202, 120 202 C 104 202, 90 190, 90 174 L 56 174 C 48 174, 40 168, 40 160 Z" fill="#FF8A3D"></path>
+          <path d="M130 100 L 148 68 C 152 61, 160 57, 168 57 L 240 57 C 248 57, 256 61, 260 68 L 278 100 Z" fill="#0E2430" opacity="0.85"></path>
+          <circle cx="120" cy="174" r="26" fill="#173241"></circle>
+          <circle cx="120" cy="174" r="11" fill="#F6FAF9"></circle>
+          <circle cx="290" cy="174" r="26" fill="#173241"></circle>
+          <circle cx="290" cy="174" r="11" fill="#F6FAF9"></circle>
+          <rect x="150" y="95" width="35" height="18" rx="2" fill="#AFC3CA" opacity="0.7"></rect>
+          <rect x="220" y="95" width="35" height="18" rx="2" fill="#AFC3CA" opacity="0.7"></rect>
+        </svg>
+        <svg class="drop-anim d1" width="14" height="18" viewBox="0 0 14 18" fill="#7FD6E8"><path d="M7 0C7 0 0 8 0 12C0 15.5 3 18 7 18C11 18 14 15.5 14 12C14 8 7 0 7 0Z"></path></svg>
+        <svg class="drop-anim d2" width="10" height="13" viewBox="0 0 14 18" fill="#7FD6E8"><path d="M7 0C7 0 0 8 0 12C0 15.5 3 18 7 18C11 18 14 15.5 14 12C14 8 7 0 7 0Z"></path></svg>
+        <svg class="drop-anim d3" width="12" height="15" viewBox="0 0 14 18" fill="#7FD6E8"><path d="M7 0C7 0 0 8 0 12C0 15.5 3 18 7 18C11 18 14 15.5 14 12C14 8 7 0 7 0Z"></path></svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="wipe"></div>
+
+  <!-- STATS -->
+  <section class="stats" style="padding-top:44px;">
+    <div class="wrap stats-grid">
+      <div><div class="stat-num">12,400+</div><div class="stat-label">Washes completed</div></div>
+      <div><div class="stat-num">9</div><div class="stat-label">Cities covered</div></div>
+      <div><div class="stat-num">4.9★</div><div class="stat-label">Average rating</div></div>
+      <div><div class="stat-num">18 L</div><div class="stat-label">Water saved this year</div></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What we do</p>
+        <h2>Pick a wash. We bring the rest.</h2>
+        <p>Every crew arrives with its own water tank, foam cannon, microfiber kit and wet-dry vacuum — your parking spot is the only thing we need.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🫧</div>
+          <h3>Exterior foam wash</h3>
+          <p>Pre-rinse, foam cannon, hand wash and dry with soft microfiber. Wheels and tyres included.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚗</div>
+          <h3>Interior detailing</h3>
+          <p>Vacuum, dashboard and door-panel wipe-down, seat shampoo on request, and glass cleaning inside-out.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💧</div>
+          <h3>Waterless wash</h3>
+          <p>Biodegradable spray-and-wipe formula for basements and no-water zones. Same shine, zero runoff.</p>
+          <span class="tag-eco">● Saves ~150L per wash</span>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📅</div>
+          <h3>Monthly subscription</h3>
+          <p>8 or 12 washes a month on a fixed schedule, at your society or office parking. Skip or reschedule anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">The process</p>
+        <h2>Three steps, no garage visit.</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-line" style="--fill:100%"></div>
+          <div class="step-num">01 / BOOK</div>
+          <h3>Pick a slot</h3>
+          <p>Choose a wash, your building or office, and a time — early morning slots fill up first, before you leave for work.</p>
+        </div>
+        <div class="step">
+          <div class="step-line" style="--fill:100%"></div>
+          <div class="step-num">02 / WASH</div>
+          <h3>We show up and wash</h3>
+          <p>A verified WashWale crew arrives with their own equipment and washes your car right where it's parked, in 25–40 minutes.</p>
+        </div>
+        <div class="step">
+          <div class="step-line" style="--fill:100%"></div>
+          <div class="step-num">03 / PAY</div>
+          <h3>Pay after you inspect</h3>
+          <p>Check the car, then pay by UPI, card or cash. Subscriptions are billed monthly, cancel anytime.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE: BEFORE/AFTER WIPE -->
+  <section class="signature">
+    <div class="wrap">
+      <div class="section-head" style="margin-left:auto; margin-right:auto; text-align:center;">
+        <p class="eyebrow" style="justify-content:center;">See the wipe</p>
+        <h2>Drag the squeegee.</h2>
+        <p style="margin-left:auto;margin-right:auto;">This is what a WashWale crew leaves behind — drag left to right to see the difference a 30-minute wash makes.</p>
+      </div>
+      <div class="compare" id="compare">
+        <div class="compare-layer compare-before">
+          <svg viewBox="0 0 400 220" width="82%" fill="none">
+            <path d="M40 150 C 40 120, 60 105, 95 100 L 120 72 C 128 62, 142 56, 158 56 L 250 56 C 266 56, 280 62, 288 72 L 312 100 C 348 105, 368 120, 368 150 L 368 160 C 368 168, 362 174, 354 174 L 320 174 C 320 190, 306 202, 290 202 C 274 202, 260 190, 260 174 L 150 174 C 150 190, 136 202, 120 202 C 104 202, 90 190, 90 174 L 56 174 C 48 174, 40 168, 40 160 Z" fill="#6B6152"></path>
+            <path d="M130 100 L 148 68 C 152 61, 160 57, 168 57 L 240 57 C 248 57, 256 61, 260 68 L 278 100 Z" fill="#3a352c"></path>
+            <circle cx="120" cy="174" r="26" fill="#2a2620"></circle><circle cx="120" cy="174" r="11" fill="#4a453c"></circle>
+            <circle cx="290" cy="174" r="26" fill="#2a2620"></circle><circle cx="290" cy="174" r="11" fill="#4a453c"></circle>
+            <g opacity="0.55"><circle cx="90" cy="120" r="2" fill="#3a352c"></circle><circle cx="110" cy="135" r="1.5" fill="#3a352c"></circle><circle cx="200" cy="145" r="2" fill="#3a352c"></circle><circle cx="250" cy="130" r="1.5" fill="#3a352c"></circle><circle cx="310" cy="140" r="2" fill="#3a352c"></circle><circle cx="160" cy="160" r="1.5" fill="#3a352c"></circle><circle cx="330" cy="155" r="2" fill="#3a352c"></circle></g>
+          </svg>
+        </div>
+        <div class="compare-clip" id="compareClip" style="width: 50%;">
+          <div class="compare-layer compare-after" style="width:400px; max-width:none;">
+            <svg viewBox="0 0 400 220" width="82%" fill="none" style="margin:0 auto;">
+              <path d="M40 150 C 40 120, 60 105, 95 100 L 120 72 C 128 62, 142 56, 158 56 L 250 56 C 266 56, 280 62, 288 72 L 312 100 C 348 105, 368 120, 368 150 L 368 160 C 368 168, 362 174, 354 174 L 320 174 C 320 190, 306 202, 290 202 C 274 202, 260 190, 260 174 L 150 174 C 150 190, 136 202, 120 202 C 104 202, 90 190, 90 174 L 56 174 C 48 174, 40 168, 40 160 Z" fill="#FF8A3D"></path>
+              <path d="M130 100 L 148 68 C 152 61, 160 57, 168 57 L 240 57 C 248 57, 256 61, 260 68 L 278 100 Z" fill="#0E2430"></path>
+              <circle cx="120" cy="174" r="26" fill="#173241"></circle><circle cx="120" cy="174" r="11" fill="#F6FAF9"></circle>
+              <circle cx="290" cy="174" r="26" fill="#173241"></circle><circle cx="290" cy="174" r="11" fill="#F6FAF9"></circle>
+              <path d="M95 100 L 130 78" stroke="#FFD9B8" stroke-width="4" stroke-linecap="round" opacity="0.8"></path>
+              <path d="M300 105 L 330 88" stroke="#FFD9B8" stroke-width="3" stroke-linecap="round" opacity="0.6"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="compare-handle" id="compareHandle" style="left: 50%;"></div>
+        <div class="compare-label left">Before</div>
+        <div class="compare-label right">After WashWale</div>
+      </div>
+      <p class="compare-hint">← drag →</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Pricing</p>
+        <h2>Simple, upfront rates.</h2>
+        <p>Priced for hatchbacks and sedans; SUVs add ₹50–₹100 depending on the plan. All prices include GST.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Single wash</h3>
+          <p class="desc">One-time exterior foam wash, book as needed.</p>
+          <div class="price-amount">₹149 <span>/ wash</span></div>
+          <ul class="price-list">
+            <li>Foam cannon exterior wash</li>
+            <li>Wheels &amp; tyre shine</li>
+            <li>Windows, in and out</li>
+            <li>Pay after inspection</li>
+          </ul>
+          <a href="https://steady-sable-177e9f.netlify.app/#book" class="btn btn-ghost">Book this wash</a>
+        </div>
+        <div class="price-card popular">
+          <span class="popular-badge">MOST BOOKED</span>
+          <h3>Monthly subscription</h3>
+          <p class="desc">12 washes a month, fixed schedule, at your parking spot.</p>
+          <div class="price-amount">₹899 <span>/ month</span></div>
+          <ul class="price-list">
+            <li>Everything in Single wash</li>
+            <li>12 scheduled washes / month</li>
+            <li>Priority early-morning slots</li>
+            <li>Interior vacuum, twice monthly</li>
+            <li>Skip or reschedule anytime</li>
+          </ul>
+          <a href="https://steady-sable-177e9f.netlify.app/#book" class="btn btn-primary">Start subscription</a>
+        </div>
+        <div class="price-card">
+          <h3>Premium detailing</h3>
+          <p class="desc">Deep exterior + interior detail, once a month.</p>
+          <div class="price-amount">₹1,299 <span>/ visit</span></div>
+          <ul class="price-list">
+            <li>Everything in Single wash</li>
+            <li>Full interior shampoo &amp; vacuum</li>
+            <li>Dashboard &amp; leather conditioning</li>
+            <li>Engine bay wipe-down</li>
+          </ul>
+          <a href="https://steady-sable-177e9f.netlify.app/#book" class="btn btn-ghost">Book detailing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITIES -->
+  <section id="cities" class="cities">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Coverage</p>
+        <h2>Where WashWale operates today.</h2>
+      </div>
+      <div class="city-grid">
+        <div class="city-chip"><span class="dot"></span>Delhi NCR</div>
+        <div class="city-chip"><span class="dot"></span>Gurugram</div>
+        <div class="city-chip"><span class="dot"></span>Noida</div>
+        <div class="city-chip"><span class="dot"></span>Bengaluru</div>
+        <div class="city-chip"><span class="dot"></span>Mumbai</div>
+        <div class="city-chip"><span class="dot"></span>Pune</div>
+        <div class="city-chip"><span class="dot"></span>Hyderabad</div>
+        <div class="city-chip"><span class="dot"></span>Chandigarh</div>
+        <div class="city-chip soon"><span class="dot"></span>Jaipur — coming soon</div>
+        <div class="city-chip soon"><span class="dot"></span>Ahmedabad — coming soon</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What people say</p>
+        <h2>Trusted by daily commuters.</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>I used to lose a Sunday morning at the garage. Now the crew comes to the basement while I'm still making breakfast.</p>
+          <div class="testi-person">
+            <div class="testi-avatar">RK</div>
+            <div><div class="testi-name">Rohit Kapoor</div><div class="testi-meta">Gurugram · Subscription</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>Our basement has a no-water rule, so the waterless wash was the only option that worked — and it still looks freshly washed.</p>
+          <div class="testi-person">
+            <div class="testi-avatar">AS</div>
+            <div><div class="testi-name">Ananya Suri</div><div class="testi-meta">Bengaluru · Waterless</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>Booked the premium detail before a long drive to Lonavala. Interiors hadn't looked this clean since we bought the car.</p>
+          <div class="testi-person">
+            <div class="testi-avatar">MP</div>
+            <div><div class="testi-name">Meera Pillai</div><div class="testi-meta">Pune · Premium detailing</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Questions</p>
+        <h2>Before you book.</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item open">
+          <button class="faq-q">Do I need to provide water or electricity? <span class="plus">+</span></button>
+          <div class="faq-a" style="max-height: 70px;"><p>No. Every crew brings its own water tank, generator-powered vacuum and cleaning supplies. You only need to leave the car unlocked or hand over keys at the slot time.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What if my society doesn't allow water washing in the basement? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Choose the waterless wash — it uses a biodegradable spray formula and microfiber towels, with no runoff, and is approved for most basement parking rules.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I pay? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Pay after the wash is done and you've inspected the car — by UPI, card, or cash to the crew. Subscriptions are auto-billed monthly and can be paused or cancelled anytime.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I reschedule a subscription wash? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Yes — reschedule or skip any visit from the WhatsApp confirmation link up to 3 hours before the slot, at no charge.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Are the crews background-verified? <span class="plus">+</span></button>
+          <div class="faq-a"><p>Every crew member is ID-verified and trained before their first assignment, and carries a WashWale ID card visible on arrival.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="book">
+    <div class="booking wrap" style="max-width:1180px; padding-left:60px; padding-right:60px;">
+      <div class="booking-copy">
+        <p class="eyebrow">Book a wash</p>
+        <h2>Tell us where to show up.</h2>
+        <p>Fill this in and we'll confirm your first slot over WhatsApp within the hour — no app download needed.</p>
+        <ul class="booking-perks">
+          <li>Slots from 6 AM, before office hours</li>
+          <li>Free reschedule up to 3 hours before</li>
+          <li>Pay only after the wash is done</li>
+        </ul>
+      </div>
+      <div>
+        <form id="bookingForm">
+          <div class="form-grid">
+            <div class="field"><label for="name">Full name</label><input id="name" type="text" placeholder="Your name" required=""></div>
+            <div class="field"><label for="phone">Phone number</label><input id="phone" type="tel" placeholder="+91 98765 43210" required=""></div>
+            <div class="field"><label for="city">City</label>
+              <select id="city" required="">
+                <option value="" disabled="" selected="">Select city</option>
+                <option>Delhi NCR</option><option>Gurugram</option><option>Noida</option>
+                <option>Bengaluru</option><option>Mumbai</option><option>Pune</option>
+                <option>Hyderabad</option><option>Chandigarh</option>
+              </select>
+            </div>
+            <div class="field"><label for="service">Service</label>
+              <select id="service" required="">
+                <option value="" disabled="" selected="">Select service</option>
+                <option>Single wash — ₹149</option>
+                <option>Monthly subscription — ₹899</option>
+                <option>Premium detailing — ₹1,299</option>
+                <option>Waterless wash</option>
+              </select>
+            </div>
+            <div class="field full"><label for="address">Parking address</label><input id="address" type="text" placeholder="Building / society, area" required=""></div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top:20px; width:100%;">Request booking</button>
+          <p class="form-note">By booking you agree to a callback or WhatsApp message from a WashWale crew lead to confirm your slot.</p>
+          <div class="form-success" id="formSuccess">✓ Got it — we'll confirm your slot on WhatsApp shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <svg width="18" height="22" viewBox="0 0 20 24" fill="none"><path d="M10 0C10 0 1 11.5 1 16.5C1 21.75 5.5 24 10 24C14.5 24 19 21.75 19 16.5C19 11.5 10 0 10 0Z" fill="#FF8A3D"></path></svg>
+          WashWale
+        </div>
+        <p>Doorstep car washing across 9 Indian cities. Your spot, your schedule, our equipment.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul><li><a href="https://steady-sable-177e9f.netlify.app/#services">Services</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#pricing">Pricing</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#cities">Cities</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#faq">FAQ</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul><li><a href="tel:+911234567890">Call us</a></li><li><a href="https://wa.me/911234567890">WhatsApp</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#book">Book a wash</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul><li><a href="https://steady-sable-177e9f.netlify.app/#">Terms of service</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#">Privacy policy</a></li><li><a href="https://steady-sable-177e9f.netlify.app/#">Refund policy</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 WashWale. All rights reserved.</span>
+      <span>Made for daily commutes, not showroom photoshoots.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/911234567890" class="wa-float" aria-label="Chat on WhatsApp" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 6.45 17.5 2 12.04 2ZM12.04 20.15C10.56 20.15 9.11 19.76 7.85 19.02L7.55 18.84L4.42 19.66L5.26 16.61L5.06 16.3C4.24 15 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.04 3.67C16.58 3.67 20.28 7.37 20.28 11.91C20.28 16.45 16.58 20.15 12.04 20.15ZM17.1 14.13C16.85 14 15.61 13.39 15.38 13.31C15.15 13.22 14.98 13.18 14.81 13.44C14.64 13.69 14.16 14.25 14.01 14.42C13.87 14.59 13.72 14.61 13.47 14.48C13.22 14.36 12.41 14.09 11.45 13.23C10.7 12.56 10.2 11.74 10.05 11.48C9.91 11.23 10.03 11.1 10.16 10.97C10.27 10.86 10.41 10.68 10.53 10.54C10.66 10.4 10.7 10.29 10.79 10.12C10.87 9.95 10.83 9.8 10.77 9.68C10.7 9.56 10.2 8.31 9.99 7.81C9.79 7.32 9.58 7.39 9.43 7.38C9.28 7.37 9.11 7.37 8.94 7.37C8.77 7.37 8.49 7.44 8.26 7.69C8.03 7.94 7.38 8.55 7.38 9.8C7.38 11.05 8.28 12.26 8.41 12.43C8.53 12.6 10.19 15.16 12.74 16.26C13.35 16.52 13.83 16.68 14.2 16.8C14.82 17 15.38 16.97 15.83 16.9C16.33 16.83 17.37 16.27 17.58 15.66C17.79 15.05 17.79 14.53 17.73 14.42C17.66 14.31 17.49 14.25 17.24 14.13H17.1Z"></path></svg>
+</a>
+
+<script>
+  // Mobile-safe: no localStorage/sessionStorage used anywhere.
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    const q = item.querySelector('.faq-q');
+    const a = item.querySelector('.faq-a');
+    if(item.classList.contains('open')){ a.style.maxHeight = a.scrollHeight + 'px'; }
+    q.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => {
+        i.classList.remove('open');
+        i.querySelector('.faq-a').style.maxHeight = 0;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+
+  // Before/after wipe slider
+  const compare = document.getElementById('compare');
+  const clip = document.getElementById('compareClip');
+  const handle = document.getElementById('compareHandle');
+  let dragging = false;
+
+  function setPosition(pct){
+    pct = Math.max(0, Math.min(100, pct));
+    clip.style.width = pct + '%';
+    handle.style.left = pct + '%';
+  }
+  setPosition(50);
+
+  function pctFromEvent(e){
+    const rect = compare.getBoundingClientRect();
+    const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+    return (x / rect.width) * 100;
+  }
+  handle.addEventListener('mousedown', () => dragging = true);
+  handle.addEventListener('touchstart', () => dragging = true, {passive:true});
+  window.addEventListener('mouseup', () => dragging = false);
+  window.addEventListener('touchend', () => dragging = false);
+  window.addEventListener('mousemove', e => { if(dragging) setPosition(pctFromEvent(e)); });
+  window.addEventListener('touchmove', e => { if(dragging) setPosition(pctFromEvent(e)); }, {passive:true});
+  compare.addEventListener('click', e => { if(e.target === handle) return; setPosition(pctFromEvent(e)); });
+
+  // Booking form (no backend — just confirms in-page)
+  document.getElementById('bookingForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('formSuccess').classList.add('show');
+    this.reset();
+  });
+</script>
+
+
+
+<script async="" src="./WashWale — Car Wash at Your Doorstep_files/hud" data-nf-variant="public" data-netlify-site-id="7064e500-1e29-453a-b28d-b5f21147ccd6" data-app-host="app.netlify.com"></script>
+<iframe sandbox="allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox" id="nl-badge-frame" title="Powered by Netlify" style="position: fixed; bottom: 0px; right: 0px; border: 0px; margin: 0px; padding: 0px; background: transparent; z-index: 2147483645; width: 202px; height: 64px; clip-path: path(&quot;M 3 3 H 189 V 51 H 3 Z&quot;);" data-nl-ready="1" src="./WashWale — Car Wash at Your Doorstep_files/saved_resource.html"></iframe><webengagedata><style type="text/css">#webklipper-publisher-widget-container, #webklipper-publisher-widget-container * {overflow:visible; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;  box-sizing: content-box; margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}</style><div id="webklipper-publisher-widget-container"><iframe title="webengage-engagement-callback-frame" name="webengage-engagement-callback-frame" id="webengage-engagement-callback-frame" frameborder="0" marginheight="0" marginwidth="0" style="position: absolute; background-color: transparent; bottom: 0px; right: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; overflow: hidden; visibility: hidden; display: none;" src="./WashWale — Car Wash at Your Doorstep_files/saved_resource(1).html"></iframe><iframe title="_we_wk_data_store" name="_we_wk_data_store" id="_we_wk_data_store" frameborder="0" marginheight="0" marginwidth="0" src="./WashWale — Car Wash at Your Doorstep_files/storage-frame-1.18.html" style="position: absolute; background-color: transparent; bottom: 0px; right: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; overflow: hidden; visibility: hidden; display: none;"></iframe></div></webengagedata></body></html>
